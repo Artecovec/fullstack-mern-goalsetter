@@ -52,6 +52,10 @@ h3 {
   margin-bottom: 60px;
 }
 
+.header .logo a{
+  color: #138395 !important;
+}
+
 .header ul {
   display: flex;
   align-items: center;
@@ -137,18 +141,18 @@ h3 {
 
 .btn {
   padding: 10px 20px;
-  border: 1px solid #000;
+  border: 1px solid #17a2b8;
   border-radius: 5px;
-  background: #000;
+  background: #17a2b8;
   color: #fff;
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
   text-align: center;
-  appearance: button;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .btn svg {
@@ -166,7 +170,7 @@ h3 {
 }
 
 .btn:hover {
-  transform: scale(0.98);
+  background-color: #138395;
 }
 
 .loadingSpinnerContainer {
